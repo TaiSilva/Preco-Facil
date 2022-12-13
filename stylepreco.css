@@ -1,0 +1,141 @@
+.menu{
+list-style:none;
+}
+
+.menu li  ul{
+position:absolute;
+background-color:#fff;
+display:none;
+}
+
+.menu li:hover ul, .menu li.over ul{display:block;}
+
+.menu li ul li{
+border:1px solid #ff9800;
+display:block;
+width:150px;
+}
+
+.card-largura{
+	max-width: 18rem;
+}
+.img-carrossel-um{
+	object-fit: cover;
+	object-position: 0 80%;
+	height: 400px;
+}
+.img-carrossel-dois{
+	object-fit: cover;
+	height: 400px;
+}
+
+.fonte-cursive{
+	font-family: 'Lobster', cursive;
+}
+
+.fonte-cor{
+	color: white!important;
+}
+
+.botao-cor-especial{
+	background-color: #ff9800;
+	color: white;
+}
+
+.border-cor-especial{
+	border-color: darkred;
+}
+.card-altura{
+	object-fit: cover;
+	height: 200px;
+}
+.fonte-color{
+	color: black;
+}
+.fonte-riscada{
+	text-decoration: line-through
+}
+
+.alturablusa{
+    width: 200px;
+    height: 200px;
+	
+}
+.borda-corespecialform{
+	border-right: 3px double #500d4d;
+	border-left: 3px double #500d4d;
+}
+.linha-vertical{
+    height: 350px;
+    border-right: 1px solid black;
+}
+
+.tamanho-btn{
+	width: 300px;
+}
+
+.width-cadastro{
+	width: 75px;
+}
+
+.tamanhopadrao{
+	width: 30%;
+}
+.link{
+	text-decoration:none;
+	color: black;
+}
+.link:hover{
+	color: black;
+}
+.imagemCard{
+	max-width:200px;
+    max-height:150px;
+    width: auto; 
+    height: auto;
+	object-position: 50% 25%;
+}
+.formularios{
+	max-width: 800px;
+    padding-top: 30px;
+    display: block;
+    margin: 0 auto;
+}
+.circulo{
+	border-radius: 50%;
+	border: 2px solid black;
+}
+.circulotam{
+	border-radius: 50%;
+	border: 1px solid black;
+	width: 41px;
+	height: 49px;
+	display: inline-block;
+}
+.borda-corespecial{
+	border: 3px solid #ff9800;
+}
+.corfundo{
+	background-color: #500d4d!important;
+	color: white!important;
+}
+.teste:hover{
+	background-color: #ff9800;
+}
+.login{
+	box-shadow: inset 5em 1em gold;
+}
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 100px auto;
+  box-shadow: inset 1em 0,2em 1em #ff9800;
+}
+.link{
+	text-decoration:none;
+	color: white;
+}
+.body-login{
+	background-image: url(img/fundo-mercado.jpg);
+	background-size: cover;
+}
